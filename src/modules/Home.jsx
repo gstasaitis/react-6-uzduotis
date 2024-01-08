@@ -53,10 +53,11 @@ const Home = () => {
         <p>Filter:</p>
         <div className="filter-section">
             <div className="cities">
-            <button className="city-btn active" onClick={() => filterDataByCity("Vilnius")}>Vilnius</button>
-            <button className="city-btn" onClick={() => filterDataByCity("Kaunas")}>Kaunas</button>
-            <button className="city-btn" onClick={() => filterDataByCity("Klaipeda")}>Klaipėda</button>
-            <button className="city-btn" onClick={() => filterDataByCity("All")}>All</button>
+<button className="city-btn" onClick={(event) => filterDataByCity("Vilnius", event)}>Vilnius</button>
+<button className="city-btn" onClick={(event) => filterDataByCity("Kaunas", event)}>Kaunas</button>
+<button className="city-btn" onClick={(event) => filterDataByCity("Klaipėda", event)}>Klaipėda</button>
+<button className="city-btn active" onClick={(event) => filterDataByCity("All", event)}>All</button>
+
             </div>
             <Link to="/form" className="add-property">Add Property +</Link>
         </div>
