@@ -55,7 +55,7 @@ const Home = () => {
             <div className="cities">
 <button className="city-btn" onClick={(event) => filterDataByCity("Vilnius", event)}>Vilnius</button>
 <button className="city-btn" onClick={(event) => filterDataByCity("Kaunas", event)}>Kaunas</button>
-<button className="city-btn" onClick={(event) => filterDataByCity("Klaipėda", event)}>Klaipėda</button>
+<button className="city-btn" onClick={(event) => filterDataByCity("Klaipeda", event)}>Klaipėda</button>
 <button className="city-btn active" onClick={(event) => filterDataByCity("All", event)}>All</button>
 
             </div>
