@@ -5,6 +5,7 @@ import './CSS/App.css'
 import './CSS/addPage.css'
 import './CSS/cards.css'
 import './CSS/main.css'
+import './CSS/loader.css'
 
 import Form from './modules/Form'
 import Home from './modules/Home'
@@ -16,7 +17,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Home />}/>
           <Route path='/form' element={<Form setActive={setActive}/>}/>
       </Routes>
     </BrowserRouter>
